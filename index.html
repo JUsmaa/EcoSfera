@@ -6,6 +6,8 @@
     <script src="https://cdn.tailwindcss.com"></script>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css">
     <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
     <link rel="shrotcut icon" href="./accents/logoEcoSfera.png">
     <link rel="stylesheet" href="./styles.css">
     <title>EcoSfera</title>
@@ -40,6 +42,70 @@
         <!--Agregar un carrusel de 5 imagenes, en el cual cada categoria sera referenciada por una imagen, el carrusel debe de ser interactivo
         con el usuario permitiendole despazarse adelante y atras entre las imagenes y a su vez debe de ser autonomo e ir cambiando la imagen 
         cada cierto tiempo-->
+        <div id="theCarousel" class="carousel slide" data-ride="carousel">
+          <!-- Indicadores -->
+          <ol class="carousel-indicators">
+            <li data-target="#theCarousel" data-slide-to="0" class="active"></li>
+            <li data-target="#theCarousel" data-slide-to="1"></li>
+            <li data-target="#theCarousel" data-slide-to="2"></li>
+            <li data-target="#theCarousel" data-slide-to="3"></li>
+            
+          </ol>
+      
+          <div class="carousel-inner" role="listbox">
+            <div class="item active">
+              <a href="">
+                <img src="/accents/AseoPersonal.jpg" alt="Ilustracion" >
+              </a> 
+               <div class="carousel-caption d-none d-md-block">
+          <h3></h3>
+          <p class="p1">Aseo personal</p>
+        </div>
+            </div>
+      
+           
+          
+            <div class="item">
+              <a href="">
+                <img src="/accents/Hogar.jpg" alt="fotografia" width="50" height="">
+              </a> 
+               <div class="carousel-caption d-none d-md-block">
+          <h3> </h3>
+          <p class="p1">Hogar</p>
+        </div>
+            </div>
+      
+           <div class="item">
+              <a href="">
+                <img src="/accents/Belleza.jpg" alt="pintura" width="50" height="424">
+              </a>
+               <div class="carousel-caption d-none d-md-block">
+          <h3></h3>
+          <p class="p1">Bienestar y belleza</p>
+        </div>
+            </div>
+             <div class="item">
+              <a href="">
+                <img src="/accents/Mascotas.jpg" alt="diseno" width="50" height=""> 
+              </a>
+               <div class="carousel-caption d-none d-md-block">
+          <h3></h3>
+          <p class="p1">Mascotas</p>
+        </div>
+            </div>
+      
+      
+          <a class="left carousel-control" href="#theCarousel" role="button" data-slide="prev">
+            <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+            <span class="sr-only">anterior</span>
+          </a>
+          <a class="right carousel-control" href="#theCarousel" role="button" data-slide="next">
+            <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+            <span class="sr-only">siguiente</span>
+          </a>
+        </div>
+      </div>
+
       </div>
       <div>
         <!--Paneles informativos Paola Murillo-->
@@ -232,6 +298,8 @@
 
 
       <!--   ----------------------------------------------- -->
+      <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+      <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
     <script type="module" src="script.js"></script>
   </body>
 </html>

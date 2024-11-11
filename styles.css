@@ -12,3 +12,23 @@ body {
   background-size: cover;
   background-attachment: fixed;
 }
+/* carrusel: */
+.carousel-inner > .item > img,
+  .carousel-inner > .item > a > img {
+      width: 35%;
+      margin: auto;
+  }
+.p1{
+    text-align: center;
+    height: 30px;
+    width: 150px;
+    margin: auto;
+    background-color: rgba(193, 213, 219, 0.8);
+    padding: 10px;
+    border-radius: 5px;
+    color: rgb(27, 160, 22);
+    padding-bottom: 28px;
+}
+.carousel{
+  margin-top: 40px;
+}
